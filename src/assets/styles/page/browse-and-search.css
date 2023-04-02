@@ -1,0 +1,45 @@
+.browse-content {
+  width: 100%;
+}
+.content-container h3 {
+  font-weight: bold;
+}
+
+.custom-form > .search-form > div > label,
+.custom-form > .search-form > div > div > label {
+  margin-top: 1rem;
+}
+
+#keyword-label {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .search-result-container {
+    margin-top: 1rem !important;
+  }
+
+  #gender-label {
+    margin-top: 0;
+  }
+}
+
+#browse-animal-desc {
+  margin-top: 1rem;
+}
+
+#browse-details > #browse-animal-details,
+#browse-details > #browse-caretaker-details {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 769px) {
+  #browse-details > #browse-animal-details,
+  #browse-details > #browse-caretaker-details {
+    margin-top: 1rem;
+  }
+
+  #browse-animal-desc {
+    margin-top: 0rem;
+  }
+}

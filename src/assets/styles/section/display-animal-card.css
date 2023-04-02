@@ -1,0 +1,33 @@
+.card {
+  width: 21rem;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  width: 20rem;
+  height: 14rem;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.card_title,
+.card-text,
+.card-btn {
+  flex-shrink: 0;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .card,
+  .card-img-top {
+    width: 18rem;
+  }
+}

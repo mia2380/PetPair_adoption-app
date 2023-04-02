@@ -1,0 +1,37 @@
+.adoption-content {
+  width: 90%;
+}
+
+.adoption-content p,
+.adoption-content h5 {
+  text-align: justify;
+}
+
+.adoption-content h3,
+.adoption-content h5 {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.adoption-content-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.adoption-content img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+}
+
+.adoption-content-block {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  .adoption-content {
+    width: 60%;
+  }
+}

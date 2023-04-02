@@ -1,0 +1,39 @@
+.Main {
+  font-family: "Roboto", sans-serif;
+}
+
+#page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#nav,
+#content,
+#footer {
+  flex-shrink: 0;
+}
+
+#content {
+  flex-grow: 1;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+.custom-btn-primary {
+  background-color: #426c9b !important;
+  border-color: #426c9b !important;
+}
+
+.custom-btn-primary:focus {
+  box-shadow: 0 0 8px #426c9b !important;
+}

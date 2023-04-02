@@ -5,11 +5,11 @@ This is the final project for the SDGKU FSDI Course. It is a web application tha
 ## Index
 
 1. [Project Summary](#1-project-summary)
-2. [Features](#3-features)
-3. [Technologies Used](#5-technologies-used)
-4. [API & Sample Document](#6-api--sample-document)
-5. [Deployment](#7-deployment)
-6. [Credits](#8-credits)
+2. [Features](#2-features)
+3. [Technologies Used](#3-technologies-used)
+4. [API & Sample Document](#4-api--sample-document)
+5. [Deployment](#5-deployment)
+6. [Credits](#6-credits)
 
 ## 1. Project Summary
 
@@ -19,16 +19,14 @@ PetPair provides a platform which enables either organizations or individuals to
 
 PetPair is developed as a single page application that uses React as the frontend framework and will use a custom RESTful API using MongoDB and Express.js to retrieve and display animal information for adoption and fostering. The application is designed to be responsive and mobile friendly.
 
-## 2. UI/UX
-
-### Strategy
-
 #### Objectives
 
 To provide a platform to link up current pet fosterers and potential pet adopters/fosterers.
 To promote awareness and potentially help save pets.
 
 #### Target Audience
+
+## 2. Features
 
 ### Scope
 
@@ -47,11 +45,7 @@ To promote awareness and potentially help save pets.
 - Performance criteria
 - Mobile responsiveness
 
-### Structure
-
-All pages of the web application can be accessed through the top navigation bar.
-
-## Technologies Used
+## 3. Technologies Used
 
 HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, Mongoose, Bootstrap, React Bootstrap, React Router, React Icons, React Hook Form, Yup, Axios, Mater
 
@@ -125,3 +119,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 4. API & Sample Document
+
+### API
+
+#### API Endpoints
+
+#### API Documentation
+
+#### Sample Document
+
+## 5. Deployment
+
+### Deployment URL
+
+### Deployment Instructions
+
+## 6. Credits
+
+### Team Members
+
+### Acknowledgements
+
+## 7. License
+
+MIT License
